@@ -12,8 +12,8 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "bin/gendiff.js",
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
