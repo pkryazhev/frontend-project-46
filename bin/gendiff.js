@@ -1,7 +1,7 @@
 import { program } from 'commander';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
-import { parseFile } from '../src/parser.js'
+import { compare, parseFile } from '../src/parser.js'
 
 program
   .description('Compares two configuration files and shows a difference.')
@@ -13,8 +13,7 @@ program
     const path2 = path.resolve(filepath2);
     const fileData1 = readFileSync(path1);
     const fileData2 = readFileSync(path2);
-    parseFile(fileData1);
-    parseFile(fileData2);
+    console.log(compare(parseFile(fileData1), parseFile(fileData2)))
   });
 
 program.parse();
