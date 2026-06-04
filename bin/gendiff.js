@@ -1,7 +1,7 @@
 import { program } from 'commander'
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
-import { compare, parseFile, format, plateFormat } from '../src/parser.js'
+import { compare, parseFile, format, plateFormat, formatToJSON } from '../src/parser.js'
 
 program
   .description('Compares two configuration files and shows a difference.')
@@ -16,7 +16,7 @@ program
     const fileData1 = readFileSync(path1, 'utf-8')
     const fileData2 = readFileSync(path2, 'utf-8')
     const data = compare(parseFile(fileData1, ext1), parseFile(fileData2, ext2))
-    console.log("\n" + plateFormat(data, []));
+    console.log(formatToJSON(data));
   })
 
 program.parse()

@@ -164,3 +164,7 @@ export const plateFormat = function(data, path) {
   })
   return result.filter(Boolean).join("\n");
 }
+
+export const formatToJSON = (data) => {
+  return JSON.stringify(data, null, 2);
+}
