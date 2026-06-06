@@ -5,6 +5,6 @@ lint:
 install:
 	npm ci
 test:
-	npm test
+	npm test -- --coverage
 
 .PHONY: install lint test
