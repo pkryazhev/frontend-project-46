@@ -26,8 +26,7 @@ test('compare check', () => {
 
 test('plain format check', () => {
   const result = genDiff(path.join(__dirname, '__fixtures__', 'file1.json'), path.join(__dirname, '__fixtures__', 'file2.json'), 'plain')
-  const expected = `
-Property 'follow' was removed
+  const expected = `Property 'follow' was removed
 Property 'proxy' was removed
 Property 'timeout' was updated. From 50 to 20
 Property 'verbose' was added with value: true`

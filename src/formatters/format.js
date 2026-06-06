@@ -8,7 +8,7 @@ export const formatData = (data, format = 'stylish') => {
       return stylishFormat(data)
     }
     case 'plain' : {
-      return '\n' + planeFormat(data, [])
+      return planeFormat(data, [])
     }
     case 'json' : {
       return formatToJSON(data)
