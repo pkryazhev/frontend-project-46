@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/pkryazhev/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/pkryazhev/frontend-project-46/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=pkryazhev_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pkryazhev_frontend-project-46)
 
 <h1>Difference Calculator</h1>
 <p>Difference Calculator is a command-line utility that compares two configuration files and displays the differences between them.</p>
