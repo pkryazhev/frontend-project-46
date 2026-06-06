@@ -44,12 +44,12 @@ console.log(diff);
 
 <h3>stylish</h3>
 <p>Human-readable tree representation of differences.</p>
-<a href='https://asciinema.org/a/EF6etK1pyoOLb7XN'>Демонстрация работы</a>
+<a href='https://asciinema.org/a/EF6etK1pyoOLb7XN'>Example</a>
 
 <h3>plain</h3>
 <p>Text description of changes.</p>
-<a href='https://asciinema.org/a/KAnVgGGy8NdLtwML'>Демонстрация работы</a>
+<a href='https://asciinema.org/a/KAnVgGGy8NdLtwML'>Example</a>
 
 <h3>JSON</h3>
 <p>Machine-readable JSON representation of the diff tree.</p>
-<a href='https://asciinema.org/a/7MHbNeWTGnY4UUAt'>Демонстрация работы</a>
+<a href='https://asciinema.org/a/7MHbNeWTGnY4UUAt'>Example</a>
